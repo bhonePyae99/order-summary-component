@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body
+    class="font-body bg-center bg-no-repeat bg-cover bg-primary-100"
+    style="background-image: url('./images/pattern-background-desktop.svg')"
+  >
+    <!-- card -->
+    <div
+      class="bg-white md:w-96 w-4/5 absolute bottom-1/2 translate-x-1/2 right-1/2 translate-y-1/2 rounded-xl shadow-xl overflow-hidden"
+    >
+      <img class="w-full" src="./images/illustration-hero.svg" alt="" />
+      <div class="text-center mt-4 mx-6">
+        <h3 class="font-bold text-2xl">Order Summary</h3>
+        <p class="mt-2 text-gray-500">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+      </div>
+      <div class="grid grid-cols-4 mt-4 mx-6 bg-gray-100 p-4 rounded-lg">
+        <div class="col-span-1 flex justify-center items-center">
+          <img src="./images/icon-music.svg" alt="" />
+        </div>
+        <div class="col-span-2 flex flex-col justify-center items-start pl-2">
+          <p class="text-black font-extrabold">Annual Plan</p>
+          <p class="text-gray-400 font-bold">$59.99/year</p>
+        </div>
+        <div class="col-span-1 flex justify-center items-center">
+          <p class="text-primary-200 font-bold">Change</p>
+        </div>
+      </div>
+      <div
+        class="grid mt-6 mx-6 bg-primary-200 cursor-pointer text-white text-center shadow-xl p-3 rounded-lg"
+      >
+        Proceed to Payment
+      </div>
+
+      <div class="text-center text-secondary-200 my-6">Cancel Order</div>
+    </div>
+    <!-- Order Summary You can now listen to millions of songs, audiobooks, and
+    podcasts on any device anywhere you like! Annual Plan $59.99/year Change
+    Proceed to Payment Cancel Order
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
